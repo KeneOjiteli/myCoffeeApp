@@ -1,0 +1,48 @@
+html, body .mainDiv{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('Images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: #f4f4f4; */
+    /* background-blend-mode: multiply; */
+    /* background-attachment: fixed; */
+    height: 100vh;
+    position: relative;
+    color: #222;
+    cursor: pointer;
+}
+
+.introDiv{
+    position: absolute;
+    top: 35%;
+    left: 7%;
+}
+
+.aboutDiv{
+    margin-top: 10%;
+    min-height: 500px;
+}
+
+/* .shadow{
+    height: 100%;
+    position: fixed;
+} */
+
+.menuDiv{
+    margin-top: 10%;
+    min-height: 500px;
+}
+
+.btn{
+    width: 100%;
+}
+
+.footer{
+    min-height: 500px;
+    display: flex;
+    align-items: stretch;
+    background-color: #222;
+    background-image: linear-gradient(to left, black, rgb(59, 58, 58));
+}

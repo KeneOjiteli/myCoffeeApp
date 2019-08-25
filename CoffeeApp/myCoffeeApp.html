@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Coffee Order App</title>
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.grid.min.css" />
+    <link rel="stylesheet" href="myCoffeeApp.css">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Arizonia|Bonbon|Hanalei&display=swap&subset=latin-ext"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Hanalei&display=swap&subset=latin-ext"
+  />
+</head>
+<body>
+    <div class="mainDiv">
+        <!-- <div class="container-fluid"> -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top py-1" id="navBar">
+                  <div class="container-fluid">
+                 <a class="navbar-brand mx-5 px-5" href="#">
+                    <div class="d-flex">
+                      <img src="Images/coffee.png" alt="Coffee logo" width="80" />
+                      <p class="py-3 ml-3">COFFEE_SHOP</p>
+                    </div>
+                  </a>
+            
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto px-4">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#landingPage">
+                          Home
+                          <!-- <span class="sr-only">(current)</span> -->
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#aboutUs">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <div class="dropdown pt-0">
+                          <a
+                            class="nav-link dropdown-toggle"
+                            href="#menu"
+                            role="button"
+                            id="dropdownMenuLink"
+                            data-toggle="dropdown"
+                            aria-disabled="true"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >Menu</a>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Coffee</a>
+                            <a class="dropdown-item" href="#">Cake</a>
+                            <a class="dropdown-item" href="#">Bread</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+                </nav>
+              <!-- </div> -->
+
+  <div class="row introDiv d-flex  text-white" id="landingPage">
+        <div class=" col-sm-6 introText">
+                <h3>Amazing Coffee happens here...</h3>
+                <p class="pt-2">
+                  Looking for a
+                  <span class="font-weight-bolder">Tall, Dark, Rich Cup</span> of
+                  <span class="font-weight-bolder">Coffee?</span> Smell it, Taste it right
+                  <span class="font-weight-bolder">Here.</span>
+                </p>
+                <div class="d-flex pt-2">
+                  <button
+                    type="button"
+                    class="btn btn-outline-danger text-white rounded-pill w-100 h-75 pt-2 btns"
+                  >BUY NOW</button>
+                </div>
+              </div>
+            </div>
+            
+               
+          </div>
+     
+        <div class="container aboutDiv" id="aboutUs">
+          <div class="row">
+            <div class="col-12 d-flex">
+            <h1 class="text-dark mx-auto">About Us</h1>
+          </div>
+            
+              <div class="col-xs-12 col-sm-6 col-md-4 pt-3 d-flex">
+                <div class="card shadow border-0 align-items-stretch">
+                  <div class="card-body">
+                    <p class="lead text-center font-weight-bold" title="What we are here to do">Our Mission</p>
+                    <p class="">Reduce operational costs and time, focus on YOUR strengths, and achieve lean growth</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-4 pt-3 d-flex">
+                  <div class="card shadow border-0 align-items-stretch">
+                    <div class="card-body">
+                      <p class="lead text-center font-weight-bold" title="Our Essence">Our Values</p>
+                      <p class="">Our Mission Reduce operational costs and time, focus on YOUR strengths, and achieve lean growth</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 pt-3 d-flex">
+                    <div class="card shadow border-0 align-items-stretch">
+                      <div class="card-body">
+                        <p class="lead text-center font-weight-bold" title="Our AHA moment">Our Vibe</p>
+                        <p class="">Our Mission
+                            Reduce operational costs and time, focus on YOUR strengths, and achieve lean growth
+                            Reduce operational costs and time, focus on YOUR strengths, and achieve lean growth
+                            Reduce operational costs and time, focus on YOUR strengths, and achieve lean growth
+                            Reduce operational costs and time, focus on YOUR strengths, and achieve lean growth
+                            Reduce operational costs and time, focus on YOUR strengths, and achieve lean growth
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          
+        <div class="container menuDiv" id="menu">
+           <div class="row">
+                <div class="col-12 menuHead text-dark">
+                    <h1 class="text-center">Our Menu</h1>
+                    <p class="lead text-center">Our Menu involves tasty coffee which awakens your senses when you smell it and taste it </p>
+                  </div>
+              <!-- <div class="col-md-12">
+                <button class="btn btn-outline-danger text-white  h-75 pt-2 btns" type="button" data-toggle="collapse" data-target="#myMenu">View Our Menu</button>
+              </div> -->
+            </div>
+          
+        </div>
+        <footer class="container-fluid footer">
+
+        </footer>
+     <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="myCoffeeApp.js"></script>
+</body>
+</html>
